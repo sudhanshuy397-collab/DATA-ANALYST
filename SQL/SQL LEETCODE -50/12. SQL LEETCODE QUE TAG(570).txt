@@ -1,0 +1,10 @@
+https://leetcode.com/problems/managers-with-at-least-5-direct-reports/
+
+
+# Write your MySQL query statement below
+select m.name 
+from Employee as e
+join employee as m
+on e.managerId = m.id
+group by name , m.id
+having count(e.managerId)>=5;

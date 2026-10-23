@@ -1,0 +1,17 @@
+https://leetcode.com/problems/game-play-analysis-iv/
+
+
+
+# Write your MySQL query statement below
+with first_date as(select player_id,min(event_date)  as f
+                     from activity
+                     group by player_id ) 
+select  round(
+               count(
+                     case when datediff(event_date,f)=1 and activity.games_played > 0 then 1 end
+                             )
+                                        /count(distinct activity.player_id),2) as fraction
+from activity
+ left join first_date
+on activity.player_id=first_date.player_id
+;
