@@ -17,21 +17,23 @@ Programming: Python (Fundamentals), C++
 
 Tools: Git, GitHub
 
-Repository Structure
+    Repository Structure
 
-         SQL
+  SQL--
 
 Contains SQL lecture exercises, practice questions, and hands-on SQL learning.
 
-        Excel
+  Excel--
 
 Contains Excel learning exercises, functions, and practice work.
 
-    Portfolio Projects
+ Portfolio Projects--
 
 Contains practical projects demonstrating my data cleaning, analysis, and dashboard development skills.
 
 Featured Projects
+
+     SQL PROJECT
 
  Layoff Dataset - Data Cleaning Using SQL
 
@@ -42,8 +44,11 @@ Featured Projects
 3. Handled missing values and standardized text and date formats.
 
 4. Used SQL joins, UPDATE, DELETE, and ALTER statements.
+   
+  Project Link: https://github.com/sudhanshuy397-collab/DATA-ANALYST/blob/main/portfolio%20projects/1.(SQL)%20data%20cleaning.sql
 
-
+     EXCEL PROJECT
+     
  Coffee Shop Sales - Excel Dashboard
  
 1. Analyzed approximately 150,000 rows of sales data.
@@ -53,6 +58,8 @@ Featured Projects
 3. Created additional columns for analysis.
 
 4. Developed an interactive dashboard using PivotTables, charts, filters, and slicers.
+   
+   Project Link: https://github.com/sudhanshuy397-collab/DATA-ANALYST/blob/main/portfolio%20projects/3.(EXCEL)%20Coffee%20Shop%20Sales%20DASHBOARD%20PROJECT.xlsx
    
        Current Learning
 
